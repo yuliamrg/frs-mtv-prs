@@ -1,0 +1,22 @@
+{
+  "name": "frs-mtv-prs",
+  "version": "1.0.0",
+  "description": "Frases motivacionales en tu CLI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon bin/global.js",
+    "start2": "node bin/global.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuliamrg/frs-mtv-prs.git"
+  },
+  "keywords": [],
+  "author": "yuliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuliamrg/frs-mtv-prs/issues"
+  },
+  "homepage": "https://github.com/yuliamrg/frs-mtv-prs#readme"
+}
