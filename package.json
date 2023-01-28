@@ -22,5 +22,9 @@
   "dependencies": {
     "cowsay": "^1.5.0",
     "lolcatjs": "^2.4.1"
-  }
+  },
+  "bin": {
+    "frs-mtv-prs": "./bin/global.js"
+  },
+  "preferGlobal": true
 }
