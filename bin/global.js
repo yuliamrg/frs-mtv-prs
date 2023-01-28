@@ -1,4 +1,4 @@
-#! /home/yuliamr/.nvm/versions/node/v18.12.1/bin node
+#! /home/yuliamr/.nvm/versions/node/v18.12.1/bin/node
 
 import random from "../src/index.js"
 import cowsay from "cowsay"

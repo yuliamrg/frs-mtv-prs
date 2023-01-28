@@ -24,7 +24,7 @@
     "lolcatjs": "^2.4.1"
   },
   "bin": {
-    "frs-mtv-prs": "./bin/global.js"
+    "get-word": "./bin/global.js"
   },
   "preferGlobal": true
 }
