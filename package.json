@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon bin/global.js",
-    "start2": "node bin/global.js"
+    "start": "node bin/global.js",
+    "dev": "nodemon bin/global.js"
   },
   "repository": {
     "type": "git",
