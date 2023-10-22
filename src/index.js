@@ -27,17 +27,20 @@ const motivationalMessages = [
   'No romantizar la vida \n (CARPE DIEM, la felicidad se la inventó \n el merchandising de las religiones)',
   'Hay que vivir desengañado \n (asegurate de no estar rodeado de imbéciles que drenen tu energía)',
   'No te quejes, pareces indefenso',
+  'Un mar tranquilo nunca hizo experto \n a un marinero',
+  'La flor no sueña con la abeja, \n florece y la abeja viene',
+  'Tener miedo significa que estas \n a punto de hacer algo valiente',
 ]
 
-const motivationalCommit = () => {
+export const motivationalCommit = () => {
   const message =
     motivationalMessages[
-      Math.floor(Math.random() * (motivationalMessages.length - 1))
+    Math.floor(Math.random() * (motivationalMessages.length - 1))
     ]
   // console.log(`\x1b[34m${message}\x1b[89m`)
   return message
 }
 
-export default {
-  motivationalCommit,
-}
+// export default {
+  // motivationalCommit,
+// }
