@@ -41,6 +41,10 @@ export const motivationalCommit = () => {
   return message
 }
 
-// export default {
-  // motivationalCommit,
-// }
+export const funnyCommit = () => {
+  const message =
+    funnyMessages[
+    Math.floor(Math.random() * (funnyMessages.length - 1))
+    ]
+  return message
+}
