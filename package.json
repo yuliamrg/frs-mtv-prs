@@ -24,7 +24,8 @@
     "lolcatjs": "^2.4.1"
   },
   "bin": {
-    "get-motivational-word": "./bin/global.js",
+    "get-word": "./bin/global.js",
+    "get-motivational-word": "./bin/motivational.js",
     "get-funny-word": "./bin/funny.js"
   },
   "preferGlobal": true
