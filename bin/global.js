@@ -5,7 +5,7 @@ import { funnyCommit } from "../src/index.js"
 import cowsay from "cowsay"
 import lolcatjs from "lolcatjs"
 
-let option = process.argv[3]
+let option = process.argv[1]
 let commit
 
 if (option == '-m') {

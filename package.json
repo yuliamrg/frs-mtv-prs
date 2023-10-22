@@ -1,6 +1,6 @@
 {
   "name": "frs-mtv-prs",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Frases motivacionales en tu CLI",
   "main": "index.js",
   "type": "module",
