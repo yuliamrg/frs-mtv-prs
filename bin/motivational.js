@@ -1,6 +1,6 @@
 #! /home/yuliamr/.nvm/versions/node/v18.12.1/bin/node
 
-import { motivationalCommit } from "../src/index.js"
+import { motivationalCommit } from "../src/Service/funnyService.js"
 import cowsay from "cowsay"
 import lolcatjs from "lolcatjs"
 

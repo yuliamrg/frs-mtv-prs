@@ -1,18 +1,4 @@
-const funnyMessages = [
-  'This is where it all begins...',
-  'Commit committed',
-  'Version control is awful',
-  'COMMIT ALL THE FILES!',
-  'The same thing we do every night, Pinky - try to take over the world!',
-  'Lock S-foils in attack position',
-  'This commit is a lie',
-  "I'll explain when you're older!",
-  'Here be Dragons',
-  'Reinventing the wheel. Again.',
-  'This is not the commit message you are looking for',
-  'Batman! (this commit has no parents)',
-]
-const motivationalMessages = [
+export const motivationalMessages = [
   'Tu ezfuerzo y dedicación te pondrán al lado de los más Grandes',
   'there is not tommorrow',
   'Cuando tienes claro tu objetivo y sabes para donde vas, no te dejas provocar por nadie.',
@@ -66,22 +52,4 @@ const motivationalMessages = [
   'Es mejor tener 1 amigo que:\n -Esté feliz por ti\n -Apoye tus éxitos\n -Anime tus sueños\n Que un montón de conocidos que son:\n -Perezosos\n -Egoístas\n -Celosos de tu éxito',
   'Serás 10 veces más feliz si perdonas \n a tus padres y dejas de culparlos',
   'Tu círculo íntimo debería estar más enfocado\n en el dinero, el éxito y \n comenzar una familia',
-  '',
 ]
-
-export const motivationalCommit = () => {
-  const message =
-    motivationalMessages[
-    Math.floor(Math.random() * (motivationalMessages.length - 1))
-    ]
-  // console.log(`\x1b[34m${message}\x1b[89m`)
-  return message
-}
-
-export const funnyCommit = () => {
-  const message =
-    funnyMessages[
-    Math.floor(Math.random() * (funnyMessages.length - 1))
-    ]
-  return message
-}

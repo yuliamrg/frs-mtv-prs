@@ -1,24 +1,18 @@
 #! /home/yuliamr/.nvm/versions/node/v18.12.1/bin/node
 
-import { motivationalCommit } from "../src/index.js"
-import { funnyCommit } from "../src/index.js"
-import cowsay from "cowsay"
-import lolcatjs from "lolcatjs"
+import { getMotivational } from '../src/Service/motivationalService.js'
+import { getFunny } from '../src/Service/funnyService.js'
+import { getAll } from '../src/Service/all.js'
 
-let option = process.argv[1]
-let commit
+let option = process.argv[2]
+let phrase
 
 if (option == '-m') {
-  commit = motivationalCommit()
+  phrase = getMotivational()
 } else if (option == '-f') {
-  commit = funnyCommit()
-} else {
-  commit = motivationalCommit()
+  phrase = getFunny()
+} else if (option) {
+  console.log("Elige una opcion correcta: \n Puede ser -f para mensajes graciosos \n Puede ser -m para mensajes motivacionales \n Si hay opción sale cualquier tipo de frase")
+} else if (!option) {
+  phrase = getAll()
 }
-
-const say = cowsay.say({ text: commit, r: true })
-lolcatjs.options.seed = Math.round(Math.random() * 1000)
-lolcatjs.options.colors = true
-
-lolcatjs.fromString(say)
-
